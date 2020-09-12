@@ -5,5 +5,50 @@
 } 
 
 .left-side{
+    text-transform: uppercase;
     display: flex;
+}
+
+.branding-name{
+    font-size: 1.5em;  
+}
+
+.branding-title{
+    font-size: 0.8em;
+    text-transform: uppercase;
+    padding: 9px
+    
+}
+
+.navcontainer > .left-side > .branding-name > .branding-title > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+}
+
+.right-side{
+    text-transform: uppercase;
+    display: flex;
+}
+
+.nav-links{
+    height: 22px;
+    font-size: 0.9em;
+    display: flex;
+    padding: 9px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-links a{
+    color: #669999;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-links:hover{
+    border-bottom: 1px solid black
+}
+
+.nav-links a:hover{
+    color: black
 }
