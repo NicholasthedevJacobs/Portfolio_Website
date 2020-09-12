@@ -1,3 +1,9 @@
-.placeholder {
-    background-color: red;
+.navcontainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 26px;
+} 
+
+.left-side{
+    display: flex;
 }
