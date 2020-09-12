@@ -1,5 +1,18 @@
-body{
-    margin: 15px;
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-main{
+    flex: 0 1 150px;;
+    margin: 5px;
+}
+
+
+
+.column{
+    width: 50%;
 }
 
 
@@ -38,10 +51,10 @@ body{
 }
 
 .nav-links{
-    height: 22px;
+    height: 32px;
     font-size: 0.9em;
     display: flex;
-    padding: 9px;
+    padding: 8px;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
 }
