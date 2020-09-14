@@ -1,3 +1,12 @@
+/*projects body styles*/
+.projects-row{
+    display: flex;
+    align-items: center;
+    margin: 80px;
+}
+
+
+/*about body styles*/
 .about-row{
     display: flex;
     margin: 80px;
@@ -15,6 +24,19 @@
     margin-left: 120px;
     
 }
+
+ul{
+    text-align: start;
+    list-style-position: inside;
+}
+
+.about-pictures{
+    justify-items: center;
+    justify-content: center;
+    padding-left: 120px;
+}
+
+
 
 
 
