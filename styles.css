@@ -1,6 +1,15 @@
-.about-paragraph{
-    display: list-item;
+.about-row{
+    margin: 80px;
+    align-items: center;
+    color: #065360;
 }
+
+.about-paragraph{
+   justify-items: center;
+   justify-content: center;
+}
+
+
 
 /*index body styles*/
 main{
