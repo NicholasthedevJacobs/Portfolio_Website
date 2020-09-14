@@ -1,8 +1,18 @@
 /*projects body styles*/
-.projects-row{
+.projects-container{
+    margin: 100px;
+    
+}
+.projects-row1{
     display: flex;
-    align-items: center;
-    margin: 80px;
+    align-items: flex-start;
+    
+}
+
+.projects-row2{
+    
+    align-items: flex-start;
+ 
 }
 
 
