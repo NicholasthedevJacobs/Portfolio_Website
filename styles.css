@@ -1,4 +1,5 @@
 .about-row{
+    display: flex;
     margin: 80px;
     align-items: center;
     color: #065360;
@@ -7,6 +8,11 @@
 .about-paragraph{
    justify-items: center;
    justify-content: center;
+}
+
+.cocktail-lounge{
+    display: flex;
+    margin-left: 120px;
 }
 
 
