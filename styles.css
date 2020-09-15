@@ -31,6 +31,7 @@
 }
 
 .about-paragraph{
+    padding-left: 50px;
    justify-items: center;
    justify-content: center;
 }
@@ -71,9 +72,11 @@ main{
 }
 
 .myRow{
+    display: flex;
+    align-items: flex-start;
     height: auto;
     max-height: 95%;
-    display: inline-flex;
+    
     justify-items: center;
     justify-content: center;
     
