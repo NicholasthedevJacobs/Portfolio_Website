@@ -1,3 +1,16 @@
+/*contact body styles*/
+.contact-container{
+    padding-top: 100px;
+}
+
+
+
+.projects-links a{
+    color: #669999;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
 /*projects body styles*/
 .projects-container{
     margin: 100px;
@@ -11,6 +24,7 @@
 
 .projects-row2{
     
+    display: flex;
     align-items: flex-start;
  
 }
